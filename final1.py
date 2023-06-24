@@ -58,7 +58,7 @@ def func2():
         if "GET_TEXT" in result:
             a=result.get("GET_TEXT")
             st.write(result.get("GET_TEXT"))
-    return a
+        return a
 
 #############################################################################################
 def funcn3():

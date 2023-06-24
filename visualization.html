@@ -1,11 +1,11 @@
 
-<div id="altair-viz-5bb074ab34674048aeadeeabf04b971d"></div>
+<div id="altair-viz-bd18bf191b44405dafafe47fd81f90b0"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-5bb074ab34674048aeadeeabf04b971d") {
-      outputDiv = document.getElementById("altair-viz-5bb074ab34674048aeadeeabf04b971d");
+    if (outputDiv.id !== "altair-viz-bd18bf191b44405dafafe47fd81f90b0") {
+      outputDiv = document.getElementById("altair-viz-bd18bf191b44405dafafe47fd81f90b0");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -51,5 +51,5 @@
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"$schema": "https://vega.github.io/schema/vega-lite/v4.json", "mark": {"type": "line", "tooltip": true}, "encoding": {"y": {"field": "Worldwide Gross", "type": "quantitative", "aggregate": "mean", "axis": {"format": "s"}}, "color": {"field": "Genre", "type": "nominal"}, "x": {"field": "Release Year", "type": "temporal"}}, "transform": [], "data": {"url": "https://raw.githubusercontent.com/nl4dv/nl4dv/master/examples/assets/data/movies-w-year.csv", "format": {"type": "csv"}}}, {"mode": "vega-lite"});
+  })({"$schema": "https://vega.github.io/schema/vega-lite/v4.json", "mark": {"type": "bar", "tooltip": true}, "encoding": {"x": {"field": "Creative Type", "type": "nominal"}, "y": {"field": "Creative Type", "type": "nominal", "aggregate": "count"}}, "transform": [], "data": {"url": "https://raw.githubusercontent.com/gattsu997/Data-Yogi/main/movies-w-year%20(2).csv", "format": {"type": "csv"}}}, {"mode": "vega-lite"});
 </script>
